@@ -13,17 +13,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         int orientation = getResources().getConfiguration().orientation;
-        if (orientation == Configuration.ORIENTATION_PORTRAIT) {
-            setContentView(R.layout.activity_portrait);
-        } else {
-            setContentView(R.layout.activity_landscape);
-        }
+        launchActivity(orientation);
     }
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
+        launchActivity(newConfig.orientation);
+    }
+
+    private void launchActivity(final int orientation) {
+        if (orientation == Configuration.ORIENTATION_PORTRAIT) {
             startActivity(new Intent(this, PortraitActivity.class));
         } else {
             startActivity(new Intent(this, LandscapeActivity.class));
