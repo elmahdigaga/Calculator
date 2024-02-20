@@ -395,7 +395,7 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/powerButton"
+                android:id="@+id/powButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
@@ -403,7 +403,7 @@
                 android:layout_marginVertical="4sp"
                 android:backgroundTint="@color/grey"
                 android:padding="0sp"
-                android:text="@string/power"
+                android:text="@string/pow"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />

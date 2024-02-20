@@ -28,7 +28,7 @@
     <string name="inverseMultiplication">1/x</string>
     <string name="exponential">exp</string>
     <string name="square">x^2</string>
-    <string name="power">x^y</string>
+    <string name="pow">x^y</string>
     <string name="absoluteValue">|x|</string>
     <string name="pi">π</string>
     <string name="squareRoot">√</string>
