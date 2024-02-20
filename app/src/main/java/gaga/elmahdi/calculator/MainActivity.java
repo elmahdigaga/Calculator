@@ -7,19 +7,25 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+    private static final String KEY_CURRENT_ORIENTATION = "current_orientation";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         int orientation = getResources().getConfiguration().orientation;
+        if (savedInstanceState != null) {
+            orientation = savedInstanceState.getInt(KEY_CURRENT_ORIENTATION, orientation);
+        }
+
         launchActivity(orientation);
     }
 
     @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-        launchActivity(newConfig.orientation);
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        outState.putInt(KEY_CURRENT_ORIENTATION, getResources().getConfiguration().orientation);
     }
 
     private void launchActivity(final int orientation) {
@@ -28,5 +34,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             startActivity(new Intent(this, LandscapeActivity.class));
         }
+        finish();
     }
 }
