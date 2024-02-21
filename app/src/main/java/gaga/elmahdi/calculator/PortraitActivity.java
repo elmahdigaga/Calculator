@@ -1,5 +1,7 @@
 package gaga.elmahdi.calculator;
 
+import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -143,5 +145,15 @@ public class PortraitActivity extends AppCompatActivity implements View.OnClickL
         }
 
         historyTV.setText(expression.toString());
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+
+        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            startActivity(new Intent(this, LandscapeActivity.class));
+            finish();
+        }
     }
 }
