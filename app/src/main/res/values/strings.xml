@@ -1,13 +1,15 @@
 <resources>
     <string name="app_name">Calculator</string>
     <string name="clear">C</string>
-    <string name="brackets">()</string>
-    <string name="modulo">%</string>
+    <string name="openBracket">(</string>
+    <string name="closeBracket">)</string>
+    <string name="leftArrow">&lt;-</string>
+    <string name="rightArrow">-&gt;</string>
     <string name="division">/</string>
     <string name="seven">7</string>
     <string name="eight">8</string>
     <string name="nine">9</string>
-    <string name="multiplication">x</string>
+    <string name="multiplication">*</string>
     <string name="four">4</string>
     <string name="five">5</string>
     <string name="six">6</string>
@@ -15,21 +17,19 @@
     <string name="one">1</string>
     <string name="two">2</string>
     <string name="three">3</string>
-    <string name="substraction">-</string>
+    <string name="subtraction">-</string>
     <string name="clear_all">AC</string>
     <string name="zero">0</string>
     <string name="dot">.</string>
     <string name="equal">=</string>
-    <string name="sinus">sin</string>
-    <string name="cosinus">cos</string>
-    <string name="tangente">tan</string>
-    <string name="ln">ln</string>
-    <string name="logarithm">log</string>
-    <string name="inverseMultiplication">1/x</string>
-    <string name="exponential">exp</string>
-    <string name="square">x^2</string>
-    <string name="pow">x^y</string>
-    <string name="absoluteValue">|x|</string>
-    <string name="pi">π</string>
-    <string name="squareRoot">√</string>
+    <string name="sinus">sin(</string>
+    <string name="cosinus">cos(</string>
+    <string name="tangente">tan(</string>
+    <string name="ln">ln(</string>
+    <string name="logarithm">log(</string>
+    <string name="exponential">exp(</string>
+    <string name="pow">pow(</string>
+    <string name="absoluteValue">abs(</string>
+    <string name="pi">3.14</string>
+    <string name="squareRoot">sqrt(</string>
 </resources>
