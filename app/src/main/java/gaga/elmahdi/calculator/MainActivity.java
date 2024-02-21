@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         launchActivity(orientation);
     }
 
-    private void launchActivity(final int orientation) {
+    public void launchActivity(final int orientation) {
         Intent intent;
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
             intent = new Intent(this, PortraitActivity.class);
