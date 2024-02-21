@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class PortraitActivity extends AppCompatActivity implements View.OnClickListener {
@@ -99,9 +100,8 @@ public class PortraitActivity extends AppCompatActivity implements View.OnClickL
         if (expression.length() == 0) return;
         final char lastToken = expression.charAt(expression.length() - 1);
         if (!Character.isDigit(lastToken) && lastToken != ')') {
-            return;
         }
-        resultTV.setText("Total");
+//        resultTV.setText("Total");
     }
 
     @Override
@@ -148,7 +148,7 @@ public class PortraitActivity extends AppCompatActivity implements View.OnClickL
     }
 
     @Override
-    public void onConfigurationChanged(Configuration newConfig) {
+    public void onConfigurationChanged(@NonNull Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
 
         if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
