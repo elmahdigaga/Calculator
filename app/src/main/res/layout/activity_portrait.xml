@@ -54,37 +54,37 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/bracketsButton"
+                android:id="@+id/openBracketButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="72sp"
                 android:layout_margin="12sp"
                 android:backgroundTint="@color/grey"
-                android:text="@string/brackets"
+                android:text="@string/openBracket"
                 android:textColor="@color/white"
                 android:textSize="32sp"
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/dotButton"
+                android:id="@+id/closeBracketButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="72sp"
                 android:layout_margin="12sp"
                 android:backgroundTint="@color/grey"
-                android:text="@string/dot"
+                android:text="@string/closeBracket"
                 android:textColor="@color/white"
                 android:textSize="32sp"
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/divisionButton"
+                android:id="@+id/equalButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="72sp"
                 android:layout_margin="12sp"
-                android:backgroundTint="@color/teal"
-                android:text="@string/division"
+                android:backgroundTint="@color/red"
+                android:text="@string/equal"
                 android:textColor="@color/white"
                 android:textSize="32sp"
                 app:cornerRadius="36sp" />
@@ -246,13 +246,13 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/substractionButton"
+                android:id="@+id/subtractionButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="72sp"
                 android:layout_margin="12sp"
                 android:backgroundTint="@color/teal"
-                android:text="@string/substraction"
+                android:text="@string/subtraction"
                 android:textColor="@color/white"
                 android:textSize="32sp"
                 app:cornerRadius="36sp" />
@@ -290,25 +290,25 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/equalButton"
+                android:id="@+id/dotButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="72sp"
                 android:layout_margin="12sp"
-                android:backgroundTint="@color/teal"
-                android:text="@string/equal"
+                android:backgroundTint="@color/grey"
+                android:text="@string/dot"
                 android:textColor="@color/white"
                 android:textSize="32sp"
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/moduloButton"
+                android:id="@+id/divisionButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="72sp"
                 android:layout_margin="12sp"
                 android:backgroundTint="@color/teal"
-                android:text="@string/modulo"
+                android:text="@string/division"
                 android:textColor="@color/white"
                 android:textSize="32sp"
                 app:cornerRadius="36sp" />

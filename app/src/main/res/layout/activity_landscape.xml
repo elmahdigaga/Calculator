@@ -15,8 +15,7 @@
         android:layout_marginVertical="4sp"
         android:padding="0sp"
         android:textAlignment="textEnd"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/resultTextView"
@@ -29,7 +28,6 @@
         android:layout_marginBottom="4sp"
         android:text="@string/zero"
         android:textAlignment="textEnd"
-        android:textColor="@color/black"
         android:textSize="54sp" />
 
 
@@ -63,7 +61,7 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/piButton"
+                android:id="@+id/leftArrowButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
@@ -71,13 +69,13 @@
                 android:layout_marginVertical="4sp"
                 android:backgroundTint="@color/grey"
                 android:padding="0sp"
-                android:text="@string/pi"
+                android:text="@string/leftArrow"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/squareRootButton"
+                android:id="@+id/rightArrowButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
@@ -85,13 +83,13 @@
                 android:layout_marginVertical="4sp"
                 android:backgroundTint="@color/grey"
                 android:padding="0sp"
-                android:text="@string/squareRoot"
+                android:text="@string/rightArrow"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/bracketsButton"
+                android:id="@+id/openBracketButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
@@ -99,13 +97,13 @@
                 android:layout_marginVertical="4sp"
                 android:backgroundTint="@color/grey"
                 android:padding="0sp"
-                android:text="@string/brackets"
+                android:text="@string/openBracket"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/dotButton"
+                android:id="@+id/closeBracketButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
@@ -113,7 +111,7 @@
                 android:layout_marginVertical="4sp"
                 android:backgroundTint="@color/grey"
                 android:padding="0sp"
-                android:text="@string/dot"
+                android:text="@string/closeBracket"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
@@ -133,15 +131,15 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/substractionButton"
+                android:id="@+id/equalButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
                 android:layout_marginHorizontal="16sp"
                 android:layout_marginVertical="4sp"
-                android:backgroundTint="@color/teal"
+                android:backgroundTint="@color/red"
                 android:padding="0sp"
-                android:text="@string/substraction"
+                android:text="@string/equal"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
@@ -289,7 +287,7 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/inverseMultiplicationButton"
+                android:id="@+id/piButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
@@ -297,7 +295,7 @@
                 android:layout_marginVertical="4sp"
                 android:backgroundTint="@color/grey"
                 android:padding="0sp"
-                android:text="@string/inverseMultiplication"
+                android:text="@string/pi"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
@@ -381,20 +379,6 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/squareButton"
-                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:layout_width="72sp"
-                android:layout_height="36sp"
-                android:layout_marginHorizontal="16sp"
-                android:layout_marginVertical="4sp"
-                android:backgroundTint="@color/grey"
-                android:padding="0sp"
-                android:text="@string/square"
-                android:textColor="@color/white"
-                android:textSize="14sp"
-                app:cornerRadius="36sp" />
-
-            <Button
                 android:id="@+id/powButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
@@ -404,6 +388,20 @@
                 android:backgroundTint="@color/grey"
                 android:padding="0sp"
                 android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:cornerRadius="36sp" />
+
+            <Button
+                android:id="@+id/squareRootButton"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="72sp"
+                android:layout_height="36sp"
+                android:layout_marginHorizontal="16sp"
+                android:layout_marginVertical="4sp"
+                android:backgroundTint="@color/grey"
+                android:padding="0sp"
+                android:text="@string/squareRoot"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
@@ -451,7 +449,7 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/substractionButton"
+                android:id="@+id/subtractionButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
@@ -459,7 +457,7 @@
                 android:layout_marginVertical="4sp"
                 android:backgroundTint="@color/teal"
                 android:padding="0sp"
-                android:text="@string/substraction"
+                android:text="@string/subtraction"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
@@ -475,7 +473,7 @@
             <Button
                 android:id="@+id/clearAllButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:layout_width="290sp"
+                android:layout_width="275sp"
                 android:layout_height="36sp"
                 android:layout_marginHorizontal="16sp"
                 android:layout_marginVertical="4sp"
@@ -501,21 +499,21 @@
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/equalButton"
+                android:id="@+id/dotButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
                 android:layout_marginHorizontal="16sp"
                 android:layout_marginVertical="4sp"
-                android:backgroundTint="@color/teal"
+                android:backgroundTint="@color/grey"
                 android:padding="0sp"
-                android:text="@string/equal"
+                android:text="@string/dot"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
 
             <Button
-                android:id="@+id/moduloButton"
+                android:id="@+id/divisionButton"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72sp"
                 android:layout_height="36sp"
@@ -523,7 +521,7 @@
                 android:layout_marginVertical="4sp"
                 android:backgroundTint="@color/teal"
                 android:padding="0sp"
-                android:text="@string/modulo"
+                android:text="@string/division"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:cornerRadius="36sp" />
