@@ -12,8 +12,8 @@ This Android calculator app is a mini project developed as part of a Mobile Deve
 
 ## Demo
 
-![Portrait Layout Demo]([link-to-portrait-demo-image](https://github.com/elmahdigaga/Calculator/blob/master/demo/Portrait_Calculator.jpg))
-![Landscape Layout Demo]([link-to-landscape-demo-image](https://github.com/elmahdigaga/Calculator/blob/master/demo/Landscape_Calculator.jpg))
+<img src="https://github.com/elmahdigaga/Calculator/blob/master/demo/Portrait_Calculator.jpg" alt="Portrait Layout Demo" width="200">
+<img src="https://github.com/elmahdigaga/Calculator/blob/master/demo/Landscape_Calculator.jpg" alt="Landscape Layout Demo" width="450">
 
 ## Installation
 
